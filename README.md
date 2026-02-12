@@ -57,6 +57,7 @@ Then follow the interactive prompts:
 Tries every password from a wordlist file (e.g. rockyou.txt).
 [>] Option: 1
 [>] Enter wordlist file path: /usr/share/wordlists/rockyou.txt
+
 2️⃣ Mask Attack
 Generates passwords based on a pattern using wildcard tokens:
 Token
@@ -82,6 +83,7 @@ Examples:
 ?l?l?l?d?d        # 3 lowercase letters + 2 digits
 admin?d?d?d       # "admin" followed by 3 digits
 ?u?l?l?l?d?s      # complex pattern
+
 3️⃣ Single Password Test
 Quickly tests one specific password against the ZIP file.
 
