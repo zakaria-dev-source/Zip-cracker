@@ -1,7 +1,7 @@
 🔐 Speed Demon ZIP Cracker V6.0
 High-performance, multi-threaded ZIP password recovery tool written in modern C++17.
 Built with dynamic load balancing and zero std::vector usage.
-�
+
 
 
 ✨ Features
@@ -12,7 +12,7 @@ Built with dynamic load balancing and zero std::vector usage.
 📊 Live Progress — real-time speed, ETA, and percentage display
 🧠 Memory Efficient — passwords streamed on-demand, no bulk loading
 🚫 No std::vector — uses std::array + std::queue throughout
-�
+
 
 
 🛠️ Requirements
@@ -33,12 +33,12 @@ brew install libzip
 
 # Arch Linux
 sudo pacman -S libzip
-�
+
 
 
 🚀 Build
 g++ -O2 -std=c++17 zip_cracker.cpp -lzip -o zip_cracker
-�
+
 
 
 📖 Usage
@@ -84,7 +84,8 @@ admin?d?d?d       # "admin" followed by 3 digits
 ?u?l?l?l?d?s      # complex pattern
 3️⃣ Single Password Test
 Quickly tests one specific password against the ZIP file.
-�
+
+
 
 
 📐 Architecture
@@ -103,22 +104,23 @@ Quickly tests one specific password against the ZIP file.
         │  [T0][T1][T2]...[Tn]      │  ← N = hardware_concurrency()
         │  each pulls & tests pwd   │
         └───────────────────────────┘
-�
+
 
 
 ⚠️ Legal Disclaimer
 This tool is intended for educational purposes only.
 Only use it on ZIP files you own or have explicit permission to test.
 Unauthorized access to password-protected files may be illegal in your jurisdiction.
-�
+
 
 
 👤 Author
 Zakaria
 Built from scratch — engineered for speed.
-�
 
-�
+
+
+
 
 
 📄 License
